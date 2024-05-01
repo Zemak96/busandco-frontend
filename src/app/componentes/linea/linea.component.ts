@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 
+
 @Component({
   selector: 'app-linea',
   standalone: true,
@@ -9,4 +10,5 @@ import { Component, Input } from '@angular/core';
 })
 export class LineaComponent {
   @Input() linea:any;
+
 }
